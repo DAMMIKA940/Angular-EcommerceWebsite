@@ -1,0 +1,65 @@
+.header{ padding:10px 0px; background:url(/assets/Pizza.jpg); height:500px; background-attachment:fixed;}
+.header-left{padding:15px 20px;}
+.header-right{padding-top:50px;}
+.white{ color:#FFF; text-decoration:none;}
+.white a{ color:#FFF; text-decoration:none;}
+.white a:hover{ color:#CCC;}
+
+.header-bottom{ padding:75px 0px 20px;}
+.header-font{ color:#FFF; text-align:center; font-size:48px; text-transform:uppercase; font-weight:bold; padding:0px;}
+.header-btns{ color:#FFF; font-size:16px; font-weight:500; border:1px solid #FFF;
+padding:10px 30px; text-decoration:none; border-radius:2px;}
+.header-btns:hover{ background:#7db549; color:#FFF; border:1px solid #7db549; text-decoration:none;}
+
+.navbar-brand {
+    float: left;
+    height: 65px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default{
+	border-radius:2px;
+	background:none;
+	margin-bottom:0px;
+	border:none !important;
+}
+.navbar-default ul{ padding:9px 0px 5px;}
+.navbar-default .navbar-nav>li>a{
+	color:#FFF;
+	padding:6px 22px;
+	font-size:14px;
+	margin:5px 14px 0px;
+	border:1px solid #FFF; border-radius:2px;
+}
+.navbar-default .navbar-nav>li>a:hover{background:#7db549 !important; color:#FFF;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	border:1px solid #7db549;
+	}
+.navbar-toggle{ margin-top:-20px;}
+@media only screen and (min-width:320px) and (max-width:480px){
+.logo{ padding:10px 0px 0px;}
+.header-right{padding-top:0px;}
+.header-font{font-size:28px;}
+.header-btns{ padding:6px 10px;}
+}
+@media only screen and (min-width:600px) and (max-width:768px){
+.header{ padding:10px 0px; height:350px;}
+.navbar-default .navbar-nav>li>a{padding:7px 6px; font-size:11px; margin:5px 5px 0px;}
+.header-right{padding-top:15px;}
+.header-font{font-size:28px;}
+.header-btns{ padding:8px 20px;}
+}
+@media only screen and (min-width:1025px) and (max-width:1280px){
+	.navbar-default .navbar-nav>li>a{padding:7px 15px; font-size:11px; margin:5px 10px 0px;}
+	.header-right{padding-top:45px;}
+   }
+@media only screen and (min-width:960px) and (max-width:1024px){
+	.header{ padding:10px 0px; height:400px;}
+	.navbar-default .navbar-nav>li>a{padding:7px 15px; font-size:11px; margin:5px 10px 0px;}
+	.header-font{font-size:34px;}
+	.header-right{padding-top:35px;}
+   }
